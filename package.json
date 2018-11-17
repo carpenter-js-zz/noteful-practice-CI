@@ -1,0 +1,25 @@
+{
+  "name": "noteful-app-v1",
+  "version": "0.0.1",
+  "description": "FullStack App w/ RESTful API Challenge",
+  "license": "MIT",
+  "author": "Chris Klanac",
+  "repository": {
+    "type": "git"
+  },
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon run server.js",
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
